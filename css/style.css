@@ -281,11 +281,11 @@ strong {
     }
 
 .custom-link {
-    background-color: var(--primary-color);
+    background-color: #4F4563;
 }
 
     .custom-link:hover {
-        background-color: var(--secondary-color);
+        background-color: #473e5a;
     }
 
 
@@ -548,7 +548,7 @@ strong {
     border-right: 1px solid var(--border-color);
     color: var(--secondary-color);
     font-weight: var(--font-weight-bold);
-    min-width: 140px;
+    min-width: 400px;
     margin-right: 10px;
     padding: 13px 30px;
     display: inline-block;
