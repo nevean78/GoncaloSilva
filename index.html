@@ -12,37 +12,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.css" />
 
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/simple-notify.min.css" />
 
     <link href="css/magnific-popup.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
-
+ 
 </head>
 
 <body>
 
+    <!-- Preloader -->
     <section class="preloader">
         <div class="spinner">
             <span class="spinner-rotate"></span>
         </div>
     </section>
 
+    <!-- Menu -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a href="index.html" class="navbar-brand mx-auto mx-lg-0">First</a>
+            <a href="index.html" class="navbar-brand mx-auto mx-lg-0">GS</a>
 
             <div class="d-flex align-items-center d-lg-none">
+                <a href="https://github.com/nevean78" target=”_blank” class="navbar-icon me-3"><i class="bi-github"></i></a>
                 <a href="https://www.linkedin.com/in/gonçalo-silva-8b89a91a0/" target=”_blank” class="navbar-icon me-3"><i class="bi-linkedin"></i></a>
-                <a href="#section_5" class="navbar-icon me-3"><i class="bi-envelope-fill"></i></a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,25 +57,26 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">About</a>
+                        <a class="nav-link click-scroll" href="#section_2">About Me</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">Services</a>
+                        <a class="nav-link click-scroll" href="#section_3">Skills</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link click-scroll" href="#section_4">Projects</a>
                     </li>
-
+                 
                     <li class="nav-item">
                         <a class="nav-link click-scroll" href="#section_5">Contact</a>
                     </li>
+                    
                 </ul>
 
                 <div class="d-lg-flex align-items-center d-none ms-auto">
+                    <a href="https://github.com/nevean78" target=”_blank” class="navbar-icon me-3"><i class="bi-github"></i></a>
                     <a href="https://www.linkedin.com/in/gonçalo-silva-8b89a91a0/" target=”_blank” class="navbar-icon me-3"><i class="bi-linkedin"></i></a>
-                    <a href="#section_5" class="navbar-icon me-3"><i class="bi-envelope-fill"></i></a>
                 </div>
             </div>
 
@@ -78,7 +84,6 @@
     </nav>
 
     <main>
-
         <section class="hero d-flex justify-content-center align-items-center" id="section_1">
             <div class="container">
                 <div class="row">
@@ -131,7 +136,7 @@
             </div>
         </section>
 
-        <section class="featured section-padding">
+        <section class="info featured section-padding">
             <div class="container">
                 <div class="row">
 
@@ -161,7 +166,7 @@
                                 </p>
                                 <p>
                                     <span class="profile-small-title">Number of companies I've worked for</span>
-                                    <span>goncalo7878s@gmail.com</span>
+                                    <span>1</span>
                                 </p>
                             </div>
                         </div>
@@ -187,7 +192,7 @@
             </div>
         </section>
 
-        <section class="services section-padding" id="section_3">
+        <section class="skills featured section-padding" id="section_3">
             <div class="container">
                 <div class="row">
 
@@ -198,91 +203,27 @@
                             <h2 class="text-white ms-4 mb-0">Skills</h2>
                         </div>
 
-                        <div class="row pt-lg-5">
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">Websites</h3>
+                        <div class="col-12 row">
 
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">$2,400</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
-                                    </div>
-
-                                    <p>You may want to explore Too CSS for great collection of free HTML CSS templates.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-globe"></i>
-                                    </div>
-                                </div>
+                            <div class="col-lg-12 col-12  skills-item-height skills-item-margin-bottom">
+                                <a href="https://jquery.com" target=”_blank”><img src="images/skills/jquery.png" class="skills-image img-fluid" alt=""></a>
+                            </div>
+        
+                            <div class="col-lg-6 col-12 skills-item-height">
+                                <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target=”_blank”><img src="images/skills/asp-dot-net.png" class="skills-image img-fluid" alt=""></a>
+                            </div>
+    
+                            <div class="col-lg-6 col-12 skills-item-height">
+                                <a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target=”_blank”><img src="images/skills/c.svg" class="skills-image img-fluid" alt=""></a>
+                            </div>
+    
+                            <div class="col-lg-12 col-12 skills-item-height skills-item-margin-top">
+                                <a href="https://www.microsoft.com/pt-pt/sql-server/sql-server-2019" target=”_blank”><img src="images/skills/sql.png" class="skills-image img-fluid" alt=""></a>
                             </div>
 
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb services-thumb-up">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">Branding</h3>
-
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">$1,200</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
-                                    </div>
-
-                                    <p>You can explore more CSS templates on TemplateMo website by browsing through different tags.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-lightbulb"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">Ecommerce</h3>
-
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">$3,600</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
-                                    </div>
-
-                                    <p>If you need a customized ecommerce website for your business, feel free to discuss with me.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-phone"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb services-thumb-up">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">SEO</h3>
-
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">$1,450</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
-                                    </div>
-
-                                    <p>To list your website first on any search engine, we will work together. First Portfolio is one-page CSS Template for free download.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-google"></i>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
+                   
+
                     </div>
                 </div>
             </div>
@@ -292,7 +233,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-8 col-md-8 col-12 ms-auto">
+                    <div class="col-lg-8 col-md-8 col-12 mx-auto">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
                             <img src="images/white-desk-work-study-aesthetics.jpg" class="avatar-image img-fluid" alt="">
 
@@ -302,45 +243,45 @@
 
                     <div class="clearfix"></div>
 
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="projects-thumb">
+                    <div class="col-lg-4 col-md-6 col-12">     
+                        <div class="projects-thumb openModal" data-id="trojanProject">
                             <div class="projects-info">
-                                <small class="projects-tag">Branding</small>
-
-                                <h3 class="projects-title">Zoik agency</h3>
+                                <small class="projects-tag">2D Video Game</small>
+                                <h3 class="projects-title">trojan.exe 
+                                    <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nevean78/Trojan.EXE/tree/main/PAP 4.0/Builds" target=”_blank” style="float: right;" class="downloadProject">
+                                        <i class="bi-download"></i>
+                                    </a>
+                                </h3>
                             </div>
-
-                            <a href="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="popup-image">
-                                <img src="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="projects-image img-fluid" alt="">
-                            </a>
+                      
+                            <img src="images/projects/trojan.png" class="projects-image img-fluid" style="border-radius: 0;" alt="">
+                      
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="projects-thumb">
+                        <div class="projects-thumb openModal" data-id="servProProject">
                             <div class="projects-info">
-                                <small class="projects-tag">Photography</small>
+                                <small class="projects-tag">Web App</small>
 
-                                <h3 class="projects-title">The Watch</h3>
+                                <h3 class="projects-title">ServPro</h3>
                             </div>
 
-                            <a href="images/projects/the-5th-IQYR7N67dhM-unsplash.jpg" class="popup-image">
-                                <img src="images/projects/the-5th-IQYR7N67dhM-unsplash.jpg" class="projects-image img-fluid" alt="">
-                            </a>
+                            <img src="images/projects/ServPro_Logotipo.png" class="projects-image img-fluid" alt="">
+                        
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="projects-thumb">
+                        <div class="projects-thumb noProject">
                             <div class="projects-info">
-                                <small class="projects-tag">Website</small>
-
-                                <h3 class="projects-title">Polo</h3>
+                                <h3 class="projects-title" style="margin-top: 25px;">Coming Soon</h3>
                             </div>
-
-                            <a href="images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" class="popup-image">
-                                <img src="images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" class="projects-image img-fluid" alt="">
-                            </a>
+                                   
+                            <div style="display: flex; justify-content: center;">
+                                <img src="images/projects/lock.png" class="projects-image-coming-soon img-fluid" alt="">
+                            </div>
+                            <img src="images/projects/commingsoon.jpg" class="projects-image img-fluid" alt="">                       
                         </div>
                     </div>
 
@@ -348,7 +289,7 @@
             </div>
         </section>
 
-        <section class="contact section-padding" id="section_5">
+        <section class="contact featured section-padding" id="section_5">
             <div class="container">
                 <div class="row">
 
@@ -362,44 +303,14 @@
 
                     <div class="clearfix"></div>
 
-                    <div class="col-lg-3 col-md-6 col-12 pe-lg-0">
-                        <div class="contact-info contact-info-border-start d-flex flex-column">
-                            <strong class="site-footer-title d-block mb-3">Services</strong>
-
-                            <ul class="footer-menu">
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Websites</a></li>
-
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Branding</a></li>
-
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Ecommerce</a></li>
-
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">SEO</a></li>
-                            </ul>
-
-                            <strong class="site-footer-title d-block mt-4 mb-3">Stay connected</strong>
-
-                            <ul class="social-icon">
-                                <li class="social-icon-item"><a href="https://twitter.com/minthu" class="social-icon-link bi-twitter"></a></li>
-
-                                <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                <li class="social-icon-item"><a href="#" class="social-icon-link bi-pinterest"></a></li>
-
-                                <li class="social-icon-item"><a href="https://www.youtube.com/templatemo" class="social-icon-link bi-youtube"></a></li>
-                            </ul>
-
-                            <strong class="site-footer-title d-block mt-4 mb-3">Start a project</strong>
-
-                            <p class="mb-0">I’m available for freelance projects</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 ps-lg-0">
+                    <div class="col-lg-6 col-md-12 col-12">
                         <div class="contact-info d-flex flex-column">
                             <strong class="site-footer-title d-block mb-3">About</strong>
 
                             <p class="mb-2">
-                                Joshua is a professional web developer. Feel free to get in touch with me.
+                                I'm a junior web developer with a year and a half of professional experience. 
+                                I am open to new opportunities.
+                                Feel free to get in touch with me.
                             </p>
 
                             <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
@@ -410,18 +321,12 @@
                                 </a>
                             </p>
 
-                            <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
-
-                            <p class="mb-0">
-                                <a href="tel: 120-240-9600">
-                                    120-240-9600
-                                </a>
-                            </p>
+                          
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                        <form action="#" method="get" class="custom-form contact-form" role="form">
+                        <form action="https://formspree.io/f/xbjbqnyg" method="POST" class="custom-form contact-form" role="form">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="form-floating">
@@ -439,55 +344,11 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="form-check form-check-inline">
-                                        <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
-
-                                        <label class="form-check-label" for="inlineCheckbox1">
-                                            <i class="bi-globe form-check-icon"></i>
-                                            <span class="form-check-label-text">Websites</span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="form-check form-check-inline">
-                                        <input name="branding" type="checkbox" class="form-check-input" id="inlineCheckbox2" value="1">
-
-                                        <label class="form-check-label" for="inlineCheckbox2">
-                                            <i class="bi-lightbulb form-check-icon"></i>
-                                            <span class="form-check-label-text">Branding</span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="form-check form-check-inline">
-                                        <input name="ecommerce" type="checkbox" class="form-check-input" id="inlineCheckbox3" value="1">
-
-                                        <label class="form-check-label" for="inlineCheckbox3">
-                                            <i class="bi-phone form-check-icon"></i>
-                                            <span class="form-check-label-text">Ecommerce</span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="form-check form-check-inline me-0">
-                                        <input name="seo" type="checkbox" class="form-check-input" id="inlineCheckbox4" value="1">
-
-                                        <label class="form-check-label" for="inlineCheckbox4">
-                                            <i class="bi-google form-check-icon"></i>
-                                            <span class="form-check-label-text">SEO</span>
-                                        </label>
-                                    </div>
-                                </div>
-
                                 <div class="col-lg-12 col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
 
-                                        <label for="floatingTextarea">Tell me about the project</label>
+                                        <label for="floatingTextarea">Message</label>
                                     </div>
                                 </div>
 
@@ -503,7 +364,7 @@
             </div>
             </div>
         </section>
-
+ 
     </main>
 
     <footer class="site-footer">
@@ -513,9 +374,9 @@
                 <div class="col-lg-12 col-12">
                     <div class="copyright-text-wrap">
                         <p class="mb-0">
-                            <span class="copyright-text">Copyright © 2036 <a href="#">First Portfolio</a> Company. All rights reserved.</span>
-                            Design:
-                            <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                            <span class="copyright-text">Copyright © 2022 Gonçalo Silva. All rights reserved.</span>
+                            <a href="https://github.com/nevean78" target=”_blank” class="me-3"><i class="bi-github footer-icons"></i></a>
+                            <a href="https://www.linkedin.com/in/gonçalo-silva-8b89a91a0/" target=”_blank” class="me-3"><i class="bi-linkedin footer-icons"></i></a>
                         </p>
                     </div>
                 </div>
@@ -524,30 +385,107 @@
         </div>
     </footer>
 
+    <!--Modals-->
+    <div class="modal trojanProject">
+        <h3>trojan.exe</h3>
+        <div style="margin-top: 20px;--bs-gutter-x: 0;" class="row">
+            <p>Trojan.exe was a 2D video game inspired by Flappy Bird. 
+            This project was developed within the scope of the final course project (PAP) at the Soares Basto school.</p>
+
+            <p>The game was developed in the Unity game engine with C#, MySql and PHP.
+            This was my first big project, developed in several months, where I learned to use the Unity game engine, C# and PHP.</p>
+
+            <p>You can test the project by <a style="color: #6441a5;" href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nevean78/Trojan.EXE/tree/main/PAP 4.0/Builds" target=”_blank”>downloading</a>.</p>
+
+            <img src="images/projects/cartaz.png" class="projectImg">
+            <p class="imgTitle">Project Poster</p>
+
+            <p style="margin-top:50px">The project contains login page, menu, leaderboard, map selection, options and game play. Here are some images of the project:</p>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="images/projects/Login.PNG" class="projectImgLeft projectImgDemoLeft">
+                <p class="imgTitle">Login Page</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="images/projects/MainMenu.PNG" class="projectImgRight projectImgDemoRight">
+                <p class="imgTitle">Menu Page</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="images/projects/LeaderBoard.PNG" class="projectImgLeft projectImgDemoLeft">
+                <p class="imgTitle">Leaderboard Page</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="images/projects/Game.PNG" class="projectImgRight projectImgDemoRight">
+                <p class="imgTitle">Game Play</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal servProProject">
+        <h3>ServPro</h3>
+        <div style="margin-top: 20px;">   
+            <p>The ServPro project was developed at Metaveiro, my first experience in the job market producing projects for clients.</p>
+            <p>The project was intended to be a business management Web App.</p>
+            <p>As this was my first and only big project at a professional level I was able to learn a lot, most of the technologies used in this project were unknown to me so I had to put a lot of effort and dedication into the project to learn these technologies.
+               This was only possible due to my internship monitor who gave me a lot of support and knowledge throughout my year and a half at Metaveiro.
+            </p>
+            <p>The Web App was developed in ASP.Net, that is, C#, HTML, CSS and JQuery were used. 
+               The database was developed in Microsoft SQL Server and the Entity Framework (EF) was also used to interact with the database.
+            </p>
+            <p>
+                Here are some images of what was developed:
+            </p>
+
+            <div class="col-12 col-md-12 col-sm-12">
+                <img src="images/projects/OrganizationPage.png" class="projectImgDemoCenter2">
+                <p class="imgTitle">Organization Page</p>
+            </div>
+
+            <hr class="dividingLine">
+
+            <div class="col-12 col-md-12 col-sm-12">
+                <img src="images/projects/BusinessPage.png" class="projectImgDemoCenter2">
+                <p class="imgTitle">Business Page</p>
+            </div>
+
+            <hr class="dividingLine">
+
+            <div class="col-12 col-md-12 col-sm-12">
+                <img src="images/projects/BusinessFunnel.png" class="projectImgDemoCenter2">
+                <p class="imgTitle">Business Funnel Page</p>
+            </div>
+
+            <hr class="dividingLine">
+
+            <div class="col-12 col-md-12 col-sm-12">
+                <img src="images/projects/Budget.png" class="projectImgDemoCenter2">
+                <p class="imgTitle">Budget Page</p>
+            </div>
+
+            <hr class="dividingLine">
+
+            <div class="col-12 col-md-12 col-sm-12">
+                <img src="images/projects/FileManager.png" class="projectImgDemoCenter2">
+                <p class="imgTitle">File Manager Page</p>
+            </div>
+        </div>
+    </div>
+
     <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.js"></script> 
+    <script src="js/custom.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/simple-notify.min.js"></script>
     <script src="js/click-scroll.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/magnific-popup-options.js"></script>
-    <script src="js/custom.js"></script>
-
-    <script>
-
-        var index = {
-            baseSelector: '#indexHolder ',
-
-            init: function (e) {
-                debugger;
-            }
-        };
-
-        $(document).ready(function (e) {
-            index.init();
-
-        });
-    </script>
+    <script src="js/jquery.sticky.js"></script>
+    
 
 </body>
 </html>
